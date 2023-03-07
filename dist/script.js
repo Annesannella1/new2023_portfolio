@@ -1,4 +1,4 @@
-/function _defineProperty(obj, key, value) {if (key in obj) {Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true });} else {obj[key] = value;}return obj;} // Made by Yago Estévez (Twitter: @yagoestevez.com)
+function _defineProperty(obj, key, value) {if (key in obj) {Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true });} else {obj[key] = value;}return obj;} // Made by Yago Estévez (Twitter: @yagoestevez.com)
 
 
 /***********************
@@ -489,7 +489,7 @@ const Contact = props => {
     '', /*#__PURE__*/
     React.createElement("span", { className: "mail" }, "web", /*#__PURE__*/
 
-    React.createElement("i", { className: "fas fa-at at" }), "yagoestevez", /*#__PURE__*/
+    React.createElement("i", { className: "fas fa-at at" }), "annesannella", /*#__PURE__*/
 
     React.createElement("i", { className: "fas fa-circle dot" }), "com"), ":")), /*#__PURE__*/
 
@@ -521,7 +521,7 @@ const Footer = props => {
     React.createElement("footer", null, /*#__PURE__*/
     React.createElement("div", { className: "wrapper" }, /*#__PURE__*/
     React.createElement("h3", null, "THANKS FOR VISITING"), /*#__PURE__*/
-    React.createElement("p", null, "\xA9 ", new Date().getFullYear(), " Yago Est\xE9vez."), /*#__PURE__*/
+    React.createElement("p", null, "\xA9 ", new Date().getFullYear(), " Anne Sannella"), /*#__PURE__*/
     React.createElement(SocialLinks, null))));
 
 
@@ -539,7 +539,7 @@ const SocialLinks = props => {
   return /*#__PURE__*/(
     React.createElement("div", { className: "social" }, /*#__PURE__*/
     React.createElement("a", {
-      href: "https://twitter.com/yagoestevez",
+      href: "https://twitter.com/annesannella",
       target: "_blank",
       rel: "noopener noreferrer",
       title: "Link to author's Twitter profile" },
@@ -549,22 +549,13 @@ const SocialLinks = props => {
 
     React.createElement("a", {
       id: "profile-link",
-      href: "https://github.com/yagoestevez",
+      href: "https://github.com/Annesannella1",
       target: "_blank",
       rel: "noopener noreferrer",
       title: "Link to author's GitHub Profile" },
 
     ' ', /*#__PURE__*/
-    React.createElement("i", { className: "fab fa-github" })), /*#__PURE__*/
-
-    React.createElement("a", {
-      href: "https://codepen.io/yagoestevez",
-      target: "_blank",
-      rel: "noopener noreferrer",
-      title: "Link to author's Codepen Profile" },
-
-    ' ', /*#__PURE__*/
-    React.createElement("i", { className: "fab fa-codepen" }))));
+    React.createElement("i", { className: "fab fa-github" }))));
 
 
 
