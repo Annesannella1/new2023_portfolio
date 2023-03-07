@@ -1,4 +1,4 @@
-// Made by Yago Estévez (Twitter: @yagoestevez.com)
+
 
 
 /***********************
@@ -50,7 +50,7 @@ const Nav = props => {
         <div className="nav-wrapper">
           <p className="brand">
             yago
-            <strong>estévez</strong>
+            <strong>sannella</strong>
           </p>
           <a
             onClick={props.toggleMenu}
@@ -79,7 +79,7 @@ const Header = props => {
       <div className="container">
         <h1>
           <span className="line">I do</span>
-          <span className="line">graphic design</span>
+          <span className="line">web design</span>
           <span className="line">
             <span className="color">&</span> code.
           </span>
@@ -106,24 +106,23 @@ const About = props => {
       <div className="wrapper">
         <article>
           <div className="title">
-            <h3>Who's this guy?</h3>
+            <h3>Who's this girl?</h3>
             <p className="separator" />
           </div>
           <div className="desc full">
-            <h4 className="subtitle">My name is Yago.</h4>
+            <h4 className="subtitle">My name is Anne.</h4>
             <p>
-              I am a web developer and UX designer based in the beautiful west coast of Spain,
-              Galicia.
+              I am a web developer and UX designer based in Music City Usa, the beautiful city of Nashville, Tennessee.
             </p>
             <p>
               I really enjoy solving problems as well as making things pretty and easy to use. I
-              can't stop learning new things; the more, the better. I also love photography, a hobby
-              I'm taking along since the good old film cameras. Oh, and rice with milk; I have a
-              passion for rice with milk!
+              can't stop learning new things; the more, the better. I also love gardening, a hobby
+              I've loved for created beautiful outdoor spaces. Oh, and cute fuzzy animals; I have a
+              passion for rescueing cute puppies!
             </p>
           </div>
           <div className="title">
-            <h3>What does he do?</h3>
+            <h3>What does she do?</h3>
             <p className="separator" />
           </div>
           <div className="desc">
@@ -131,11 +130,11 @@ const About = props => {
             <p>
               For the front-end I usually work with Javascript, either standalone or including
               popular frameworks like ReactJS and VueJS. I also make the web pretty by using Sass,
-              CSS and, whenever needed, any of their friends: Bootstrap, Bulma, etc.
+              CSS and, whenever needed, any of their friends: Bootstrap, etc.
             </p>
             <p>
-              For the back-end I also work with Javascript (NodeJS, Express, MongoDB, etc). But, of
-              course, whenever the project requires PHP, I do PHP as well (Wordpress, Laravel, etc).
+              For the back-end I also work with Javascript (NodeJS, PostgreSQL, MongoDB, etc). But, of
+              course, whenever the project requires PHP, I do PHP as well (Wordpress). I can also do Java as well.
             </p>
           </div>
           <div className="desc">
@@ -208,7 +207,7 @@ const Project = props => {
 
 /***********************
   Projects Component
- ***********************/
+ ***********************
 
 const Projects = props => {
   return (
@@ -466,7 +465,7 @@ const Projects = props => {
       </div>
     </section>
   );
-};
+};/
 
 
 
@@ -533,7 +532,7 @@ const Footer = props => {
 
 /***********************
   Social Links Component
- ***********************/
+ ***********************
 
 const SocialLinks = props => {
   return (
@@ -568,7 +567,7 @@ const SocialLinks = props => {
       </a>
     </div>
   );
-};
+};/
 
 
 
