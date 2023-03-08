@@ -1,4 +1,4 @@
-// Made by Anne Sannella (Twitter: @annesannella.com)
+// Made by Yago Estevez (Twitter: @yagoestevez.com)
 
 
 /***********************
@@ -49,8 +49,8 @@ const Nav = props => {
       <nav id="navbar">
         <div className="nav-wrapper">
           <p className="brand">
-            anne
-            <strong>sannella</strong>
+            yago
+            <strong>estevez</strong>
           </p>
           <a
             onClick={props.toggleMenu}
